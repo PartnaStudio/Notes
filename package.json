@@ -20,7 +20,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "npm rebuild && npm run webpack"
+    "start": "npm rebuild && npm run webpack",
     "start-server": "cross-env TRILIUM_DATA_DIR=./data TRILIUM_ENV=dev TRILIUM_SYNC_SERVER_HOST=http://tsyncserver:4000 nodemon src/main.ts",
     "start-server-safe": "cross-env TRILIUM_DATA_DIR=./data TRILIUM_ENV=dev TRILIUM_SYNC_SERVER_HOST=http://tsyncserver:4000 nodemon src/main.ts",
     "start-server-no-dir": "cross-env TRILIUM_ENV=dev TRILIUM_SYNC_SERVER_HOST=http://tsyncserver:4000 nodemon src/main.ts",
